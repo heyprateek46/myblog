@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Title - Prateek Sharma</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Lato', Arial, sans-serif;
+        }
+
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 2rem;
+        }
+
+        .header a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+        }
+
+        .blog-content {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .blog-header {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .blog-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .blog-meta {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+
+        .blog-body {
+            line-height: 1.8;
+            color: #333;
+        }
+
+        .blog-body p {
+            margin-bottom: 1.5rem;
+        }
+
+        .blog-body h2 {
+            margin: 2rem 0 1rem;
+            font-size: 1.8rem;
+        }
+
+        .blog-body h3 {
+            margin: 1.5rem 0 1rem;
+            font-size: 1.4rem;
+        }
+
+        .blog-body ul, .blog-body ol {
+            margin: 1rem 0 1.5rem 2rem;
+        }
+
+        .blog-body li {
+            margin-bottom: 0.5rem;
+        }
+
+        .blog-body img {
+            max-width: 100%;
+            height: auto;
+            margin: 1.5rem 0;
+            border-radius: 5px;
+        }
+
+        .blog-body blockquote {
+            border-left: 4px solid #333;
+            padding-left: 1rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            color: #666;
+        }
+
+        .blog-body code {
+            background-color: #f4f4f4;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+
+        .blog-footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid #eee;
+            text-align: center;
+        }
+
+        .blog-footer a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .blog-footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="/"><h1>Prateek Sharma</h1></a>
+    </header>
+
+    <article class="blog-content">
+        <header class="blog-header">
+            <h1>Write it down to ease your anxiety <span style='font-size:20px;'>&#128221;</span> </h1>
+            <div class="blog-meta">
+                Published on <time datetime="2025-01-16">January 16, 2025</time>
+            </div>
+        </header>
+
+        <div class="blog-body">
+            <!-- Your blog post content goes here -->
+            <p><p>Everyone has heard/read about this - “Write it down to ease your anxiety”. We all might have tried it at some point but the habit never stuck for long. Then after some time you get into a similar situation and realize that you’ve been feeling anxious lately. That’s what was happening with me for quite some time until I realized that I had stopped journaling (for the sake of this, let’s call it “writing”) altogether. </p>
+
+<p>I don’t journal regularly but I believe I am better than most - I write about 2-3x per week. Which has led me to believe that it helps. It helps with a lot of things but we’ll talk about anxiety today. </p>
+
+<p>There is a change in my life - the change that was long due. I moved to a new city for my job. I was quite excited about the move but as it happens with most of us, I was anxious about how I was going to plan and execute this move. </p>
+
+<p>Now to give context in short, I consider myself a minimalist (which I recently found out that I am not - keeping stuff behind closed doors in your apartment and then saying you are a minimalist does not make you a minimalist) and I also consider myself a planner (which is basically a refined term for a procrastinator). </p>
+
+<p>So as a classic procrastinator, I planned a lot about how things would go, what to do, what not to do, what are the alternates and so on. Turns out, most of the things did not go as planned but I adapted well to those situations - long story short (why even I am using this term?) I made the move in the apartment I like.</p>
+
+<p>Everything was great until I made myself miserable thinking about my stuff! </p>
+
+<blockquote>
+<p> I don’t have any of my stuff, I have to buy this, I have to buy that, oh! I already have this, but it’s still not here as it’s with the packers and movers, I don’t have my favourite mug, I don’t have my preferred coffee, I don’t have my favourite pen, my book, my routine has changed, not the one that I used to follow and love - and I am miserable!</p>
+</blockquote>
+
+<p>This is how I assume most people make them miserable, even after getting the things that they wanted for quite a long time. </p>
+
+<p>So what has helped? Obviously, writing. </p>
+
+<p>Writing calms you. Makes your anxiety go away. Writing things forces you to think and write what you are thinking (in my case worrying) which broadens your horizon and makes the problem not a problem as it’s not a problem in the first place. </p>
+
+<p>Write the fu*k down - whatever is bothering you, whatever is making you anxious, whatever you are worried about. Turns out - those thoughts are not as powerful as you think they are. </p>
+
+          
+        </div>
+
+        <footer class="blog-footer">
+            <p>
+                Thanks for reading! <br>
+                <a href="/">← Back to home</a>
+            </p>
+        </footer>
+    </article>
+</body>
+</html>
