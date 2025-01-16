@@ -3,60 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog</title>
-    <!-- Add Google Fonts import for Lato -->
+    <title>Prateek Sharma - Personal Blog</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Lato', Arial, sans-serif; /* Changed font-family to Lato */
+            font-family: 'Lato', Arial, sans-serif;
         }
 
         .hero {
-            height: 60vh;
-            background-image: url('/api/placeholder/1200/800');
-            background-size: cover;
-            background-position: center;
+            min-height: 60vh;
+            background-color: #333;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
             color: white;
-            position: relative;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.5);
+            padding: 4rem 2rem;
         }
 
         .hero-content {
-            position: relative;
-            z-index: 1;
-            padding: 2rem;
             max-width: 800px;
         }
 
-        h1 {
+        .hero h1 {
             font-size: 3rem;
             margin-bottom: 1rem;
+            color: white;
         }
 
-        h2 {
+        .hero h2 {
             font-size: 1.5rem;
             margin-bottom: 1.5rem;
+            color: #f4f4f4;
         }
 
-        .description {
+        .hero p {
             font-size: 1.1rem;
             line-height: 1.6;
+            margin-bottom: 1rem;
+            color: #f4f4f4;
+        }
+
+        .hero a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        .hero a:hover {
+            opacity: 0.8;
         }
 
         .blog-list {
@@ -70,7 +67,8 @@
             padding: 1.5rem;
             border: 1px solid #eee;
             border-radius: 5px;
-            transition: transform 0.2s;
+            transition: transform 0.2s, box-shadow 0.2s;
+            background-color: white;
         }
 
         .blog-post:hover {
@@ -81,22 +79,36 @@
         .blog-post a {
             text-decoration: none;
             color: #333;
+            display: block;
         }
 
         .blog-post h3 {
             margin-bottom: 0.5rem;
             font-size: 1.3rem;
+            color: #333;
         }
 
         .blog-post p {
             color: #666;
+            line-height: 1.6;
         }
 
         .date {
             font-size: 0.9rem;
             color: #888;
+            margin-top: 0.5rem;
+            display: block;
         }
 
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero h2 {
+                font-size: 1.3rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -105,37 +117,28 @@
         <div class="hero-content">
             <h1>Prateek Sharma</h1>
             <h2>I do things and like stuff!</h2>
-            <p> <class="description">I spend most of my time trying to figure out how things work and how I can make them work for me. I love to read books, blogs, tweets, and anything that interests me. I also try to lift, run and eat well! - please put a great emphasis on “try” </p>
+            <p>I spend most of my time trying to figure out how things work and how I can make them work for me. I love to read books, blogs, tweets, and anything that interests me. I also try to lift, run and eat well! - please put a great emphasis on "try"</p>
 
-<p>Yes, I do have a full-time job. </p>
+            <p>Yes, I do have a full-time job.</p>
 
-<p>Oh btw, did I tell you that I love coffee? P.S. - I am a professional overthinker, writing makes me sane! *or so does my brain believes* </p>
+            <p>Oh btw, did I tell you that I love coffee? P.S. - I am a professional overthinker, writing makes me sane! *or so does my brain believes*</p>
 
-<p>Have something interesting to share? Hit me up at <a href="mailto:buildwithprateek@gmail.com">Send email</a> or via <a href="https://x.com/prateek_046">X</a></p>
+            <p>Have something interesting to share? Hit me up at <a href="mailto:buildwithprateek@gmail.com">Send email</a> or via <a href="https://x.com/prateek_046">X</a></p>
 
-<p>You can find the books that I am <a href="http://fable.co/prateek-sharma-282189154009">reading here</a></p>
+            <p>You can find the books that I am <a href="http://fable.co/prateek-sharma-282189154009">reading here</a></p>
 
-
-<p> P.S. - I am currently exploring writing for pleasure - here I share my views on things I came across. Every piece will be updated as per my experience and changes in perspectives.</p>
+            <p>P.S. - I am currently exploring writing for pleasure - here I share my views on things I came across. Every piece will be updated as per my experience and changes in perspectives.</p>
         </div>
     </div>
 
     <!-- Blog List Section -->
     <div class="blog-list">
-        <!-- Example blog posts - duplicate or remove as needed -->
         <div class="blog-post">
             <a href="Blog-post-1.index.html">
                 <h3>You need to relax more <span style='font-size:20px;'>&#128524;</span></h3>
             </a>
         </div>
 
-        <div class="blog-post">
-            <a href="/blog-post-2.html">
-                <h3>Your Second Blog Post Title</h3>
-                <p>Another brief preview or description of your blog post. Keep it concise but informative.</p>
-                <span class="date">January 10, 2025</span>
-            </a>
-        </div>
     </div>
 </body>
 </html>
